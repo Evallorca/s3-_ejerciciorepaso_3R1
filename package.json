@@ -9,11 +9,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:Adalab/Adalab-web-starter-kit.git"
+		"url": "git+ssh://git@github.com:Evallorca/s3_ejerciciorepaso_3R1"
 	},
 	"author": "Adalab",
 	"license": "MIT",
-	"homepage": "https://github.com/Adalab/Adalab-web-starter-kit",
+	"homepage": "https://evallorca.github.io/s3_ejerciciorepaso_3R1/.",
 	"dependencies": {
 		"browser-sync": "*",
 		"gulp-autoprefixer": "*",
