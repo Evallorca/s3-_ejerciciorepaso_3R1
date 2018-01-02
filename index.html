@@ -1,39 +1,132 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Adalab Web Starter Kit</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/main.css">
-	<script src="js/popper.js"> </script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Repaso 3</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+	<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="http://placehold.it/300x60?text=Logo" width="150" height="30" alt="">
+        </a>
 
-<body>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-	<header class="container-fluid">
-		<div class="row" style="display:flex;justify-content:space-between;">
-			<div class="col-6 logo">
-				<a href="#"><img src="http://placehold.it/100x100" alt=""></a>
-			</div>
-			<div class="col-6 menu-button">
-				<div class="btn-group">
-					<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Menú
-					</button>
-					<div class="dropdown-menu dropdown-menu-right">
-						<button class="dropdown-item" type="button">Action</button>
-						<button class="dropdown-item" type="button">Another action</button>
-						<button class="dropdown-item" type="button">Something else here</button>
-					</div>
-				</div>
-			</div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Blog</a>
+						</li>
+						<li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div> <!--fin container nav-->
+    </nav>
 
+		<main>
+			<section>
+				<div class="cover">
+	        <p class="cover-bigtext">Hello</p>
+	        <p class="cover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae semper quam. Praesent lobortis tellus quis erat condimentum, a bibendum tortor volutpat.</p>
+	      </div>
+			</section>
+
+			<section class="cats">
+        <article class="cat">
+          <img class="cat-img" src="http://placekitten.com/305/205" alt=" " />
+          <h1 class="cat-title">
+            Title of article
+          </h1>
+        </article>
+        <article class="cat">
+          <img class="cat-img" src="http://placekitten.com/320/220" alt=" " />
+          <h1 class="cat-title">
+            Title of article
+          </h1>
+        </article>
+        <article class="cat">
+          <img class="cat-img" src="http://placekitten.com/330/240" alt=" " />
+          <h1 class="cat-title">
+            Title of article
+          </h1>
+        </article>
+        <article class="cat">
+          <img class="cat-img" src="http://placekitten.com/280/250" alt=" " />
+          <h1 class="cat-title">
+            Title of article
+          </h1>
+        </article>
+        <article class="cat">
+          <img class="cat-img" src="http://placekitten.com/310/210" alt=" " />
+          <h1 class="cat-title">
+            Title of article
+          </h1>
+        </article>
+        <article class="cat">
+          <img class="cat-img" src="http://placekitten.com/430/240" alt=" " />
+          <h1 class="cat-title">
+            Title of article
+          </h1>
+        </article>
+      </section>
+		</main>
+
+	<!-- <main>
+		<section>
+			<div class="cover">
+        <p class="cover-bigtext">Hello</p>
+        <p class="cover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae semper quam. Praesent lobortis tellus quis erat condimentum, a bibendum tortor volutpat.</p>
+      </div>
+		</section>
+
+		<div class="row cats">
+        <div class="col-md-4 col-sm-6 cat">
+          <img class="cat-img" src="http://placekitten.com/305/205" alt=" " />
+          <h1 class="cat-title">
+            Title of article
+          </h1>
+        </div>
+				<div class="col-md-4 col-sm-6 cat">
+          <img class="cat-img" src="http://placekitten.com/305/205" alt=" " />
+          <h1 class="cat-title">
+            Title of article
+          </h1>
+        </div>
+				<div class="col-md-4 col-sm-6 cat">
+          <img class="cat-img" src="http://placekitten.com/305/205" alt=" " />
+          <h1 class="cat-title">
+            Title of article
+          </h1>
+        </div>
 		</div>
+	</main> -->
 
-	</header>
+    <!-- Bootstrap JavaScript -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-	<script src="js/main.min.js"></script>
-</body>
+  </body>
+
 </html>
