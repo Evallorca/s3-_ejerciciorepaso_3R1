@@ -1,6 +1,4 @@
+@import 'components/mainPage';
+@import 'components/cover';
+@import 'components/grid';
 @import 'core/settings';
-@import 'components/menu';
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat;
-	height: 100vh;
-}
